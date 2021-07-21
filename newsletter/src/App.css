@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.art{
+  height:50%;
+  width:45%;
+}
+
+.body{
+  min-height: 100vh;
+}
+.input-box{
+  min-height: 60px;
+  min-width: 500px;
+}
+
+@media only screen and (max-width: 768px) {
+  .art{
+    height: 70%;
+    width: 70%;
+  }
+  .input-box{
+    min-height: 60px;
+    min-width: 500px;
+  } 
+}
+
+@media only screen and (max-width: 640px) {
+  .art{
+    height: 75%;
+    width: 75%;
+  }
+  .input-box{
+    min-height: 60px;
+    min-width: 400px;
+  } 
+}
